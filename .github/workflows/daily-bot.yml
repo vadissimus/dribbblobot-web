@@ -3,7 +3,7 @@ name: Run Dribbble Bots
 on:
   schedule:
     - cron: '0 20 * * *'  # 23:00 МСК - web
-    - cron: '15 20 * * *' # 23:15 МСК - mobile
+    - cron: '30 20 * * *' # 23:15 МСК - mobile
   workflow_dispatch:
 
 jobs:
