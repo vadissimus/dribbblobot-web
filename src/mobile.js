@@ -5,7 +5,7 @@ const axios = require('axios');
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const TELEGRAM_THREAD_ID = 7;
-const DELAY_BETWEEN_MESSAGES = 2000; // 2 секунды задержки между сообщениями
+const DELAY_BETWEEN_MESSAGES = 3000; // 3 секунды задержки между сообщениями
 
 async function sendTelegramPhoto(imageUrl, caption) {
   try {
