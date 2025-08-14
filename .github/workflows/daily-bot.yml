@@ -1,4 +1,4 @@
-name: Daily Dribbble Bot
+name: Daily dribbblobot web
 
 on:
   schedule:
