@@ -1,5 +1,5 @@
 {
-  "name": "dribbble-telegram-bot",
+  "name": "dribbblobot-web",
   "version": "1.0.0",
   "main": "bot.js",
   "dependencies": {
